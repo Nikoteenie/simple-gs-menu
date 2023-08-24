@@ -47,6 +47,15 @@ div.scrollmenu::-webkit-scrollbar {
   display: none;
 }
 */
+
+ .main-category:hover  .bi-arrow-right{
+	color: var(--orange);
+}
+
+.main-menu-title:hover .bi-arrow-right{
+	color: var(--orange);
+}
+
 div.scrollmenu a {
   display: inline-block;
   color: var(--dark-blue);
