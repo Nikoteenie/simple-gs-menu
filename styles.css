@@ -37,24 +37,6 @@ body {
   background-color: var(--light-blue);
   border: 1px solid var(--dark-blue);
 }
-/*Scroll Strip*/
-/*
-div.scrollmenu {
-  overflow: auto;
-  white-space: nowrap;
-}
-div.scrollmenu::-webkit-scrollbar {
-  display: none;
-}
-*/
-
- .main-category:hover  .bi-arrow-right{
-	color: var(--orange);
-}
-
-.main-menu-title:hover .bi-arrow-right{
-	color: var(--orange);
-}
 
 div.scrollmenu a {
   display: inline-block;
@@ -87,18 +69,22 @@ li {
   background-color: var(--dark-blue);
 }
 .main-menu-title a {
-  padding: 2px 6px 2px 6px;
+/*  padding: 2px 6px 2px 6px;*/
   color: white;
   font-size: 20px;
 }
+
+
+
+.main-menu-title:hover .bi-arrow-right{
+	color: var(--orange);
+}
+
 
 .title-chevron {
 	color:white;
 }
 
-.main-menu-title:hover .title-chevron{
-	color:var(--orange);
-}
 
 
 .fa-circle-user {
@@ -165,32 +151,36 @@ hr {
 .main-category a {
   color: var(--dark-blue);
   text-decoration: none;
-  font-size: 18px;
-	  font-size: 22px;
+ font-size: 20px;
+	
   font-weight: 700;
 }
 
 .main-category {
   color: var(--dark-blue);
   text-decoration: none;
-  font-size: 18px;
-	font-size: 22px;
+	
   font-weight: 700;
 }
 
+ .main-category:hover  .bi-arrow-right{
+	color: var(--orange);
+}
+
 .sub-category {
-  color: var(--light-blue);
-  font-size: 18px;
+  color: #444;
+  font-size: 16px;
+
 }
 
 .sub-category a {
-  color: var(--light-blue);
+  color: #444;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 16px;
 }
 .sub-category:hover a {
   color: var(--dark-blue);
-  font-weight: bolder;
+	font-weight: 500;
 }
 .sub-category:hover .chevron {
   color: var(--dark-blue);
