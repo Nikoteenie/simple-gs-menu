@@ -231,7 +231,7 @@ color: var(--orange);
 
 
  #offcanvasExample {
-      width: 18vw !important;  
+      width: 19vw !important;  
     }
 /*// Small devices (landscape phones, 576px and up)*/
 @media (max-width: 576px) {
