@@ -304,6 +304,9 @@ color: var(--orange);
 		padding-left: 8px
 	}
 	
+	 #offcanvasExample {
+      width: 100% !important;  
+    }
 
 }
 /*// Medium devices (tablets, 768px and up)*/
@@ -338,7 +341,7 @@ color: var(--orange);
 	}
 
 	 #offcanvasExample {
-      width: 19vw !important;  
+      width: 100% !important;  
     }
 }
 /*// Large devices (desktops, 992px and up)*/
