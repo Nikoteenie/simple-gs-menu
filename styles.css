@@ -305,7 +305,7 @@ color: var(--orange);
 	}
 	
 	 #offcanvasExample {
-      width: 100% !important;  
+      width: 80% !important;  
     }
 
 }
@@ -341,7 +341,7 @@ color: var(--orange);
 	}
 
 	 #offcanvasExample {
-      width: 100% !important;  
+      width: 80% !important;  
     }
 }
 /*// Large devices (desktops, 992px and up)*/
