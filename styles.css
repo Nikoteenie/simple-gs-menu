@@ -5,7 +5,7 @@
   --orange: #fa6100;
 }
 body {
-   background-image: url("background.jpg");
+  background-image: url("background.jpg");
   background-position: center bottom;
 	
   font-family: 'Roboto', sans-serif;
@@ -266,9 +266,7 @@ color: var(--orange);
 
 
 
- #offcanvasExample {
-      width: 22vw !important;  
-    }
+
 /*// Small devices (landscape phones, 576px and up)*/
 @media (max-width: 576px) {
   body {
@@ -295,12 +293,10 @@ color: var(--orange);
     font-size: 28px;
   }
 */
-	 #offcanvasExample {
-      width: 100% !important;  
-    }
+	
 	div.scrollmenu a {
 
-  padding: 0 5px 0 5px;
+  padding: 0 7px 0 7px;
  
 }
 	
@@ -342,15 +338,18 @@ color: var(--orange);
 	}
 
 	 #offcanvasExample {
-      width: 100% !important;  
+      width: 19vw !important;  
     }
 }
 /*// Large devices (desktops, 992px and up)*/
-@media (max-width: 992px) {
+@media (min-width: 1025px) {
+/*
   body {
     background-image: url("mobile-back.png");
   }
+*/
 
+/*
   .header-container {
     padding-top: 5px !important;
   }
@@ -360,6 +359,10 @@ color: var(--orange);
   .sign-in {
     display: none;
   }
+*/
+	 #offcanvasExample {
+      width: 19vw !important;  
+    }
 	
 
 }
