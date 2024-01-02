@@ -15,6 +15,25 @@ body {
   padding-top: 20px;
   margin: 0px auto;
 }
+
+.dropdown-item, .hello-account {
+color:#0e2d52;
+}
+
+
+.dropdown-item:hover {
+	font-weight: 600;
+	color: var(--dark-blue)
+}
+
+.hello-account {
+font-weight: 500; 
+font-size: 16px;
+}
+
+.account-icons {
+	 max-width: 210px;
+}
 .menu-ham {
   color: white;
   background-color: var(--dark-blue);
@@ -277,6 +296,17 @@ hr {
     padding: 0;
   }
 }
+
+@media (max-width: 1447px){
+	.account-icons {
+		max-width: 150px;
+	}
+	
+	.hello-account {
+		font-size: 14px;
+	}
+}
+
 /*// Large devices (desktops, 992px and up)*/
 @media (min-width: 1025px) {
   .exposed-menu {
