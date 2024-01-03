@@ -89,9 +89,19 @@ ul {
 li {
   padding: 8px;
 }
+
 li:hover {
   background: #F6F6F6;
 }
+
+.main-category:hover {
+  background: #F6F6F6;
+}
+
+.call-out:hover {
+  background: #F6F6F6;
+}
+
 .chevron {
 
   font-size: 15px;
@@ -163,7 +173,7 @@ hr {
 .call-out:hover a {
   color: var(--light-blue);
 }
-.main-category, .main-category a {
+h3, .main-category a {
   color: var(--dark-blue);
   text-decoration: none;
   font-size: 20px;
