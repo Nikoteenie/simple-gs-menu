@@ -10,6 +10,12 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 /*NAVBAR*/
+
+.btn:focus {
+	outline: -webkit-focus-ring-color auto 1px !important;
+	
+}
+
 .header-container {
   background-color: white !important;
   padding-top: 20px;
@@ -43,6 +49,11 @@ font-size: 16px;
   max-width: 110px;
   padding: 3px 0 3px 0;
 }
+
+.menu-ham:focus {
+	outline: -webkit-focus-ring-color auto 1px !important;
+}
+
 .menu {
   font-size: 1.2rem;
   font-weight: 500;
@@ -64,16 +75,27 @@ font-size: 16px;
   font-size: 20px;
   font-weight: bolder;
 }
-.search-button:hover {
-  color: var(--light-blue);
+
+
+.search-button:focus {
+outline: -webkit-focus-ring-color auto 1px !important;
+	color: var(--light-blue)!important;
 }
+
+.search-button:hover {
+	color: var(--light-blue);
+}
+
+
+
 div.exposed-menu a {
   display: inline-block;
   color: var(--dark-blue);
   text-align: center;
   padding: 0 25px 0 25px;
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 1.1rem;
+
 }
 div.exposed-menu a:hover {
   font-weight: bolder;
@@ -103,7 +125,6 @@ li:hover {
 }
 
 .chevron {
-
   font-size: 15px;
   color: var(--orange);
 }
@@ -114,8 +135,8 @@ li:hover {
   color: white;
   font-size: 20px;
 }
-.main-menu-title:hover .bi-arrow-right {
-  color: var(--orange);
+.sign-name:focus {
+outline: -webkit-focus-ring-color auto 1px !important;
 }
 .banner {
   position: relative;
