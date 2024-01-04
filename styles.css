@@ -12,8 +12,7 @@ body {
 /*NAVBAR*/
 
 .btn:focus {
-	outline: -webkit-focus-ring-color auto 1px !important;
-	
+	outline: -webkit-focus-ring-color auto 2px !important;
 }
 
 .header-container {
@@ -50,8 +49,11 @@ font-size: 16px;
   padding: 3px 0 3px 0;
 }
 
+
+
 .menu-ham:focus {
 	outline: -webkit-focus-ring-color auto 1px !important;
+	background-color: var(--light-blue);
 }
 
 .menu {
@@ -74,16 +76,19 @@ font-size: 16px;
   color: white;
   font-size: 20px;
   font-weight: bolder;
+	background-color: #0e2d52
 }
 
 
 .search-button:focus {
 outline: -webkit-focus-ring-color auto 1px !important;
-	color: var(--light-blue)!important;
+	color: white !important;
+	background-color: var(--light-blue);
 }
 
 .search-button:hover {
-	color: var(--light-blue);
+	color: white;
+	background: var(--light-blue);
 }
 
 
