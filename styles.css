@@ -292,7 +292,8 @@ h3, .main-category a {
     font-size: 15px
   }
   div.exposed-menu a {
-    padding: 0 7px 0 7px;
+    padding: 0px 4px 0 4px;
+	  font-size: .95rem;
   }
   .banner a {
     bottom: 6px;
