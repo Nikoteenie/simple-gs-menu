@@ -230,6 +230,15 @@ h3, .main-category a {
 .sub-category:hover .chevron {
   color: var(--dark-blue);
 }
+
+
+.flyout-button {
+	background-color: rgba(0,0,0,0);
+}
+
+.flyout-button:hover{
+	background: #F6F6F6;
+}
 /*MOBILE*/
 .mobile-logo {
   display: none;
