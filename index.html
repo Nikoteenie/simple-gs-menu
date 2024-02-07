@@ -14,54 +14,71 @@
 </head>
 
 <body>
-	
 <img class="mobile-logo bg-white img-fluid"  src="mobile-logo.png" alt="" role="presentation">
-<div class="header-container">
-  <div class="row justify-content-center m-1">
-    <div class="col-lg-2 p-0"> <img class="logo img-fluid"  src="https://www.lifeextension.com/-/media/project/lifeextension/images/logo/le-logo-svg.svg?rev=87127ddb108648aa9bf71c9ed237f8ef&h=75&w=200&la=en&hash=D8E7AC0CF5E35466F65C3FE531322CD8" alt="" role="presentation"></div>
-    <div class="col-12 col-lg-6 text-center justify-content-center p-0" >
-      <div class="row mt-sm-3 d-flex justify-content-center">
-        <div class="col-2 col-lg-2 me-3">
-			<div class="menu-button">
-          <button class="menu-ham border-0" type="button" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample" aria-haspopup="dialog"> <span class="ham-span d-flex justify-content-center"><img class="burger" src="burger.png" alt="" role="presentation">
-            <p class="menu ps-1">Menu</p>
-            </span></button></div>
-          <button class="mobile-menu me-2 d-lg-none d-md-none" type="button" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample"> <img class="mobile-burger mt-1" src="burger.png" alt="" role="presentation">
-            <div class="menu">Menu</div>
+<div class="header-container ">
+  <div class="row justify-content-evenly text-center mb-2 mt-3 px-lg-5">
+    <div class="col-lg-3 p-0"> <img class="logo img-fluid"  src="https://www.lifeextension.com/-/media/project/lifeextension/images/logo/le-logo-svg.svg?rev=87127ddb108648aa9bf71c9ed237f8ef&h=75&w=200&la=en&hash=D8E7AC0CF5E35466F65C3FE531322CD8" alt="" role="presentation"></div>
+    <div class="col-12 col-lg-6 justify-content-center p-0" >
+      <div class="row justify-content-center">
+        <div class=" search-row d-flex justify-content-center align-items-top ">
+          <button class="mobile-menu"  type="button" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample"> <i class="fs-4 fa-solid fa-bars"></i>
+          <div class="fs-6 menu m-0 mt-lg-1">Menu</div>
           </button>
-        </div>
-        <div class="col-7">
-          <div class="form w-100 mt-sm-0 border-light">
-            <div class="input-group">
-              <input type="text" class="form-control" placeholder="Search" aria-label="Search" aria-describedby="button-addon2" value="">
-			
-              <button class="btn search-button rounded" type="button" id="button-addon2" aria-label="Search"> <i class="fa-solid fa-magnifying-glass"></i> </button>
+          <div>
+            <div class="form border-light container-fluid m-0">
+              <div class="input-group">
+                <input type="text" class="form-control" placeholder="Search" aria-label="Search" aria-describedby="button-addon2" value="">
+                <button class="btn search-button rounded" type="button" id="button-addon2" aria-label="Search"> <i class="fa-solid fa-magnifying-glass"></i> </button>
+              </div>
+              <div class="row p-0 mt-lg-2">
+                <div class="exposed-menu p-0 m-0"> <a href="https://www.lifeextension.com/vitamins-supplements/best-sellers">Best Sellers</a> <a href="https://www.lixeextension.com/search#t=coveo4A2453FD&f:searchAttributes=[Search%20Attributes,On%20Sale]">Sales</a> <a href="https://www.lifeextension.com/vitamins-supplements/new-reformulated">New Products</a> <a href="https://www.lifeextension.com/education">Education</a> </div>
+              </div>
             </div>
           </div>
+			
+			
+<!--		  MOBILE-->
+          <img class="d-lg-none one-rated-mobile" src="rated.png" alt="" role="presentation" height="45">
+          <button href="https://www.lifeextension.com/about/consumerlab" class="one-rated-desktop border-0 bg-white d-flex "> <img  class="one-rated-desktop align-items-center" src="cl-award.png" alt="" width="38" />
+          <div class="one-rated-desktop ps-2 one-rated mt-2">#1 Rated <br>
+            Catalog/Internet Merchant</div>
+          </button>
         </div>
-        <div class="col-2 d-lg-none p-0"> <img class="img-fluid" src="rated.png" alt="" role="presentation"> </div>
-        <div class="row m-sm-0">
-          <div class="exposed-menu mt-lg-3 mb-lg-2 my-2 text-center"> <a href="https://www.lifeextension.com/vitamins-supplements/best-sellers">Best Sellers</a> <a href="https://www.lifeextension.com/search#t=coveo4A2453FD&f:searchAttributes=[Search%20Attributes,On%20Sale]">Sales</a> <a href="https://www.lifeextension.com/vitamins-supplements/new-reformulated">New Products</a> 
-		<a href="https://www.lifeextension.com/education">Education</a> </div>
+		  
+
+        <div class=" d-lg-none row p-0 my-lg-2">
+          <div class="exposed-menu-mobile p-0 m-0"> <a href="https://www.lifeextension.com/vitamins-supplements/best-sellers">Best Sellers</a> <a href="https://www.lixeextension.com/search#t=coveo4A2453FD&f:searchAttributes=[Search%20Attributes,On%20Sale]">Sales</a> <a href="https://www.lifeextension.com/vitamins-supplements/new-reformulated">New Products</a> <a href="https://www.lifeextension.com/education">Education</a> </div>
         </div>
+<!--		  /MOBILE-->
+		  
       </div>
     </div>
-    <div class="col-lg-3 p-0"> <div class="dropdown sign-in">
-  <button class="btn mt-3 p-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-   <img src="account-icon.png"  width="30" style="display:inline;"  class="mb-1" alt="" role="presentation"/> <span class="mt-1 hello-account">Hello, Arnold</span> <img class="mb-1" src="drop-arrow.png" style="display:inline;" width="20" alt="" role="presentation"/>
-  </button>
-  <ul class="dropdown-menu py-3">
-    <li><a class="dropdown-item px-2 py-0" href="https://www.lifeextension.com/mylifeextension">My Life Extension</a></li>
-    <li><a class="dropdown-item px-2 py-0" href="https://mycart.lifeextension.com/account">Account Options</a></li>
-    <li><a class="dropdown-item px-2 py-0" href="https://mycart.lifeextension.com/account">LE Dollars</a></li>
-	    <li><a class="dropdown-item px-2 py-0" href="https://mycart.lifeextension.com/account/autoship">AutoShip & Save</a></li>
-	    <li><a class="dropdown-item px-2 py-0" href="https://mycart.lifeextension.com/account/orderhistory">Order History & Reorder</a></li>
-	    <li><a class="dropdown-item px-2 py-0" href="https://mycart.lifeextension.com/account/favorites">Wish Lists</a></li>
-	    <li><a class="dropdown-item px-2 py-0" href="https://mycart.lifeextension.com/account/shippingaddresses">Shipping Addresses</a></li>
-	    <li><a class="dropdown-item px-2 py-0" href="https://mycart.lifeextension.com/login">Sign Out</a></li>
-  </ul>
-		<img style="display:inline;" id="signed" class="account-icons img-fluid mt-2" src="sign-in2.png" alt=""/>
-</div></div>
+    <div class="col-lg-3 p-0 desktop-icons">
+      <div class="justify-content-bottom dropdown d-inline sign-in">
+        <button class="btn p-0" type="button" data-bs-toggle="dropdown" aria-expanded="false"> <img src="account.png"  class="mx-1" width="45" alt="">
+        <figcaption>Account</figcaption>
+        </button>
+        <ul class="dropdown-menu py-3">
+          <li><a class="dropdown-item px-2 py-0" href="https://www.lifeextension.com/mylifeextension">My Life Extension</a></li>
+          <li><a class="dropdown-item px-2 py-0" href="https://mycart.lifeextension.com/account">Account Options</a></li>
+          <li><a class="dropdown-item px-2 py-0" href="https://mycart.lifeextension.com/account">LE Dollars</a></li>
+          <li><a class="dropdown-item px-2 py-0" href="https://mycart.lifeextension.com/account/autoship">AutoShip & Save</a></li>
+          <li><a class="dropdown-item px-2 py-0" href="https://mycart.lifeextension.com/account/orderhistory">Order History & Reorder</a></li>
+          <li><a class="dropdown-item px-2 py-0" href="https://mycart.lifeextension.com/account/favorites">Wish Lists</a></li>
+          <li><a class="dropdown-item px-2 py-0" href="https://mycart.lifeextension.com/account/shippingaddresses">Shipping Addresses</a></li>
+          <li><a class="dropdown-item px-2 py-0" href="https://mycart.lifeextension.com/login">Sign Out</a></li>
+        </ul>
+      </div>
+      <button class="btn p-0 mx-1" type="button" data-bs-aria-expanded="false"> <img class="d-inline" src="contact.png" alt="" width="35">
+      <figcaption>Contact</figcaption>
+      </button>
+      <button class="btn p-0 mx-1" type="button" data-bs-aria-expanded="false"><img class="d-inline" src="deals.png" alt="" width="35">
+      <figcaption>Deals</figcaption>
+      </button>
+      <button class="btn p-0 mx-1" type="button" data-bs- aria-expanded="false"><img class="d-inline" src="cart.png" alt="" width="35">
+      <figcaption>Cart</figcaption>
+      </button>
+    </div>
   </div>
 </div>
 <!--END EXPOSED MENU	--> 
@@ -73,101 +90,112 @@
     <div class="pb-0 main-menu-title" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-dismiss="offcanvas"> <a href="#" style="color:white; cursor: pointer;" class="btn focus-ring" role="button"> <span class="sign-name">Sign In/Join</span> <img class="mb-1" src="chev-blue.png" width="21px" alt=""></a></div>
     <button type="button" class="close me-2" data-bs-dismiss="offcanvas" aria-label="Close menu"><i class="fa-sharp fa-solid fa-xmark"></i></button>
   </div>
-  <div class="offcanvas-body">
-    <div class="banner"> <img src="wide-boy.jpg" class="banner w-100" alt="sale banner"> <a alt="Shop now summer clearance" href="#">Shop Now</a></div>
-	  
-<!--   Vitamins and Supplements-->
-      <div class="main-category ps-3 pt-2 pb-0"><a href="https://www.lifeextension.com/vitamins-supplements">Shop Vitamins & Supplements </a></div>
-      <ul class="mb-0">
-        <li class="sub-category"><a href="https://www.lifeextension.com/vitamins-supplements/best-sellers">Best Sellers</a></li>
-        <li class="sub-category"><a href="https://www.lifeextension.com/vitamins-supplements/essentials">Core Supplements</a></li>
-        <li class="sub-category"> <button class="flyout-button w-100 p-0 border-0" aria-haspopup="dialog" data-bs-toggle="offcanvas" href="#offcanvas2"  aria-controls="offcanvas2">
-          <div class="d-flex justify-content-between pe-4">By Benefit <span class="chevron"><i aria-hidden="true" class="fa-solid fa-chevron-right"></i></span> </div>
-          </button></li>
-        <li class="sub-category"> <button class="flyout-button w-100 p-0 border-0" aria-haspopup="dialog" data-bs-toggle="offcanvas" href="#offcanvas3"  aria-controls="offcanvas3">
-          <div class="d-flex justify-content-between pe-4">By Nutrient Type <span class="chevron"><i aria-hidden="true" class="fa-solid fa-chevron-right"></i></span> </div>
-          </button></li>
-        <li class="sub-category"> <button class="flyout-button w-100 p-0 border-0" aria-haspopup="dialog" data-bs-toggle="offcanvas" href="#offcanvas4" aria-controls="offcanvas4">
-          <div class="d-flex justify-content-between pe-4"> Vitamins & Minerals <span class="chevron"><i aria-hidden="true" class="fa-solid fa-chevron-right"></i></span></div>
-			</button></li>
-        <li class="sub-category"> <button class="flyout-button w-100 p-0 border-0" aria-haspopup="dialog" data-bs-toggle="offcanvas" href="#offcanvas5" aria-controls="offcanvas5">
-          <div class="d-flex justify-content-between pe-4"> Signature Collections <span class="chevron"><i aria-hidden="true" class="fa-solid fa-chevron-right"></i></span></div>
-          </button></li>
-		<li class="sub-category"><a href="https://www.lifeextension.com/vitamins-supplements/new-reformulated">New Supplements</a></li>
-        <li class="sub-category"><a href="https://www.lifeextension.com/vitamins-supplements/products-a-to-z">Products A-Z</a></li>
-      </ul>
-      <!--CALLOUT-->
-      <hr>
-      <div class="call-out ps-3 py-2"><a href="https://www.lifeextension.com/health-basics/supplement-guides">Health Quizzes <img class="mb-1" src="chev.png" width="22px" alt="" role="presentation"></a></div>
-      <hr>
-      <!--/CALLOUT-->
-<!--		LAB TESTS-->
-      <div class="main-category ps-3 pt-2 pb-0"><a href="https://www.lifeextension.com/lab-testing">Shop All Lab Tests</a></div>
-      <ul class="mb-0">
-        <li class="sub-category"><a href="https://www.lifeextension.com/lab-testing/lab-picks-from-life-extension">Popular Lab Tests</a></li>
-        <li class="sub-category"> <button class="flyout-button w-100 p-0 border-0" aria-haspopup="dialog" data-bs-toggle="offcanvas" href="#offcanvas9" aria-controls="offcanvas9">
-          <div class="d-flex justify-content-between pe-4">By Type of Test <span class="chevron"><i aria-hidden="true" class="fa-solid fa-chevron-right"></i></span> </div>
-          </button></li>
-        <li class="sub-category"><a href="https://www.lifeextension.com/lab-testing/lab-tests-a-to-z">Lab Tests A-Z</a></li>
-        <li class="sub-category"><a href="https://www.lifeextension.com/vitamins-supplements/blood-tests/faq">Lab Testing FAQs</a></li>
-      </ul>
-      <!--CALLOUT-->
-      <hr>
-      <div class="call-out ps-3 py-2"><a href="https://www.lifeextension.com/wellness">Wellness Blog <img class="mb-1" src="chev.png" width="22px" alt="" role="presentation"></a></div>
-      <hr>
-      <!--/CALLOUT-->
-<!--	  Knowledge Base-->
-      <div class="main-category ps-3 pt-2 pb-0"><a href="https://www.lifeextension.com/education">Knowledge Base</a></div>
-      <ul class="mb-0">
-		  <li class="sub-category"><a href="https://www.lifeextension.com/magazine">Magazine</a></li>
-        <li class="sub-category"><a href="https://www.lifeextension.com/protocols">Protocols</a></li>
-        <li class="sub-category"><a href="https://www.lifeextension.com/news">Health News</a></li>
-        <li class="sub-category"><a href="https://www.lifeextension.com/education/live-foreverish">Podcast</a></li>
-        <li class="sub-category"> <button class="flyout-button w-100 p-0 border-0" aria-haspopup="dialog" data-bs-toggle="offcanvas" href="#offcanvas7" aria-controls="offcanvas7">
-          <div class="d-flex justify-content-between pe-4">eBooks <span class="chevron"><i class="fa-solid fa-chevron-right"></i></span> </div>
-          </button></li>
-      </ul>
-	<!--CALLOUT-->
-      <hr>
-      <div class="call-out ps-3 py-2"><a href="https://www.lifeextension.com/about/wellness-specialists">Wellness Specialists <img class="mb-1" src="chev.png" width="22px" alt="" role="presentation"></a></div>
-      <hr>
-      <!--/CALLOUT-->
-<!--	  Save and Earn-->
-      <div class="main-category ps-3 pt-2 pb-0"><a href="https://www.lifeextension.com/about/life-extension-rewards-program">Save & Earn</a></div>
-      <ul class="mb-0">
-        <li class="sub-category"><a href="https://www.lifeextension.com/about/premier">Premier Rewards</a></li>
-        <li class="sub-category"><a href="https://www.lifeextension.com/about/autoship-and-save">AutoShip & Save</a></li>
-      </ul>
-	<!--CALLOUT-->
-   	  <hr>
-      <div class="call-out ps-3 py-2"><a href="https://www.lifeextension.com/about/clinical-research">Clinical Research <img class="mb-1" src="chev.png" width="22px" alt="" role="presentation"></a></div>
-      <hr>
-	<!--/CALLOUT-->
-<!--	  About Us-->
-      <div class="main-category ps-3 pt-2 pb-0"><a href="https://www.lifeextension.com/about/about-life-extension">About Us</a></div>
-      <ul class="mb-0">
-        <li class="sub-category"><a href="https://www.lifeextension.com/about/life-extension-story">Why Choose Life Extension?</a></li>
-        <li class="sub-category"><a href="https://www.lifeextension.com/about/testimonials">Testimonials</a></li>
-        <li class="sub-category"><a href="https://www.lifeextension.com/about/life-extension-research">Our Scientific Research</a></li>
-		  <li class="sub-category"><a href="https://www.lifeextension.com/about/media-public-relations">Media Resources</a></li>
-        <li class="sub-category"><a href="https://www.lifeextension.com/about/nutrition-center">Health & Wellness Market</a></li>
-      </ul>
-		
-		<hr>
-      <div class="main-category ps-3 py-2"> <a href="https://www.lifeextension.com/mylifeextension">
-        <div class="row g-0">
-          <div> My Life Extension <img
+  <div class="banner"> <img src="wide-boy.jpg" class="banner w-100" alt="sale banner"> <a alt="Shop now summer clearance" href="#">Shop Now</a></div>
+  <div class="offcanvas-body"> 
+    
+    <!--   Vitamins and Supplements-->
+    <div class="main-category ps-3 pt-2 pb-0"><a href="https://www.lifeextension.com/vitamins-supplements">Shop Vitamins & Supplements </a></div>
+    <ul class="mb-0">
+      <li class="sub-category"><a href="https://www.lifeextension.com/vitamins-supplements/best-sellers">Best Sellers</a></li>
+      <li class="sub-category"><a href="https://www.lifeextension.com/vitamins-supplements/essentials">Core Supplements</a></li>
+      <li class="sub-category">
+        <button class="flyout-button w-100 p-0 border-0" aria-haspopup="dialog" data-bs-toggle="offcanvas" href="#offcanvas2"  aria-controls="offcanvas2">
+        <div class="d-flex justify-content-between pe-4">By Benefit <span class="chevron"><i aria-hidden="true" class="fa-solid fa-chevron-right"></i></span> </div>
+        </button>
+      </li>
+      <li class="sub-category">
+        <button class="flyout-button w-100 p-0 border-0" aria-haspopup="dialog" data-bs-toggle="offcanvas" href="#offcanvas3"  aria-controls="offcanvas3">
+        <div class="d-flex justify-content-between pe-4">By Nutrient Type <span class="chevron"><i aria-hidden="true" class="fa-solid fa-chevron-right"></i></span> </div>
+        </button>
+      </li>
+      <li class="sub-category">
+        <button class="flyout-button w-100 p-0 border-0" aria-haspopup="dialog" data-bs-toggle="offcanvas" href="#offcanvas4" aria-controls="offcanvas4">
+        <div class="d-flex justify-content-between pe-4"> Vitamins & Minerals <span class="chevron"><i aria-hidden="true" class="fa-solid fa-chevron-right"></i></span></div>
+        </button>
+      </li>
+      <li class="sub-category">
+        <button class="flyout-button w-100 p-0 border-0" aria-haspopup="dialog" data-bs-toggle="offcanvas" href="#offcanvas5" aria-controls="offcanvas5">
+        <div class="d-flex justify-content-between pe-4"> Signature Collections <span class="chevron"><i aria-hidden="true" class="fa-solid fa-chevron-right"></i></span></div>
+        </button>
+      </li>
+      <li class="sub-category"><a href="https://www.lifeextension.com/vitamins-supplements/new-reformulated">New Supplements</a></li>
+      <li class="sub-category"><a href="https://www.lifeextension.com/vitamins-supplements/products-a-to-z">Products A-Z</a></li>
+    </ul>
+    <!--CALLOUT-->
+    <hr>
+    <div class="call-out ps-3 py-2"><a href="https://www.lifeextension.com/health-basics/supplement-guides">Health Quizzes <img class="mb-1" src="chev.png" width="22px" alt="" role="presentation"></a></div>
+    <hr>
+    <!--/CALLOUT--> 
+    <!--		LAB TESTS-->
+    <div class="main-category ps-3 pt-2 pb-0"><a href="https://www.lifeextension.com/lab-testing">Shop All Lab Tests</a></div>
+    <ul class="mb-0">
+      <li class="sub-category"><a href="https://www.lifeextension.com/lab-testing/lab-picks-from-life-extension">Popular Lab Tests</a></li>
+      <li class="sub-category">
+        <button class="flyout-button w-100 p-0 border-0" aria-haspopup="dialog" data-bs-toggle="offcanvas" href="#offcanvas9" aria-controls="offcanvas9">
+        <div class="d-flex justify-content-between pe-4">By Type of Test <span class="chevron"><i aria-hidden="true" class="fa-solid fa-chevron-right"></i></span> </div>
+        </button>
+      </li>
+      <li class="sub-category"><a href="https://www.lifeextension.com/lab-testing/lab-tests-a-to-z">Lab Tests A-Z</a></li>
+      <li class="sub-category"><a href="https://www.lifeextension.com/vitamins-supplements/blood-tests/faq">Lab Testing FAQs</a></li>
+    </ul>
+    <!--CALLOUT-->
+    <hr>
+    <div class="call-out ps-3 py-2"><a href="https://www.lifeextension.com/wellness">Wellness Blog <img class="mb-1" src="chev.png" width="22px" alt="" role="presentation"></a></div>
+    <hr>
+    <!--/CALLOUT--> 
+    <!--	  Knowledge Base-->
+    <div class="main-category ps-3 pt-2 pb-0"><a href="https://www.lifeextension.com/education">Knowledge Base</a></div>
+    <ul class="mb-0">
+      <li class="sub-category"><a href="https://www.lifeextension.com/magazine">Magazine</a></li>
+      <li class="sub-category"><a href="https://www.lifeextension.com/protocols">Protocols</a></li>
+      <li class="sub-category"><a href="https://www.lifeextension.com/news">Health News</a></li>
+      <li class="sub-category"><a href="https://www.lifeextension.com/education/live-foreverish">Podcast</a></li>
+      <li class="sub-category">
+        <button class="flyout-button w-100 p-0 border-0" aria-haspopup="dialog" data-bs-toggle="offcanvas" href="#offcanvas7" aria-controls="offcanvas7">
+        <div class="d-flex justify-content-between pe-4">eBooks <span class="chevron"><i class="fa-solid fa-chevron-right"></i></span> </div>
+        </button>
+      </li>
+    </ul>
+    <!--CALLOUT-->
+    <hr>
+    <div class="call-out ps-3 py-2"><a href="https://www.lifeextension.com/about/wellness-specialists">Wellness Specialists <img class="mb-1" src="chev.png" width="22px" alt="" role="presentation"></a></div>
+    <hr>
+    <!--/CALLOUT--> 
+    <!--	  Save and Earn-->
+    <div class="main-category ps-3 pt-2 pb-0"><a href="https://www.lifeextension.com/about/life-extension-rewards-program">Save & Earn</a></div>
+    <ul class="mb-0">
+      <li class="sub-category"><a href="https://www.lifeextension.com/about/premier">Premier Rewards</a></li>
+      <li class="sub-category"><a href="https://www.lifeextension.com/about/autoship-and-save">AutoShip & Save</a></li>
+    </ul>
+    <!--CALLOUT-->
+    <hr>
+    <div class="call-out ps-3 py-2"><a href="https://www.lifeextension.com/about/clinical-research">Clinical Research <img class="mb-1" src="chev.png" width="22px" alt="" role="presentation"></a></div>
+    <hr>
+    <!--/CALLOUT--> 
+    <!--	  About Us-->
+    <div class="main-category ps-3 pt-2 pb-0"><a href="https://www.lifeextension.com/about/about-life-extension">About Us</a></div>
+    <ul class="mb-0">
+      <li class="sub-category"><a href="https://www.lifeextension.com/about/life-extension-story">Why Choose Life Extension?</a></li>
+      <li class="sub-category"><a href="https://www.lifeextension.com/about/testimonials">Testimonials</a></li>
+      <li class="sub-category"><a href="https://www.lifeextension.com/about/life-extension-research">Our Scientific Research</a></li>
+      <li class="sub-category"><a href="https://www.lifeextension.com/about/media-public-relations">Media Resources</a></li>
+      <li class="sub-category"><a href="https://www.lifeextension.com/about/nutrition-center">Health & Wellness Market</a></li>
+    </ul>
+    <hr>
+    <div class="main-category ps-3 py-2"> <a href="https://www.lifeextension.com/mylifeextension">
+      <div class="row g-0">
+        <div> My Life Extension <img
                               src="sales-tag.png"
                               style="width: 26px; height: auto"
                         class="ps-1 pb-1"
                              alt="" role="presentation"
                             /> </div>
-        </div>
-        </a></div>
-      <hr>
-      <div class="call-out ps-3 py-2"><a href="https://www.lifeextension.com/quest-com">Contact Us <img class="mb-1" src="chev.png" width="22px" alt="" role="presentation"></a></div>
-    
+      </div>
+      </a></div>
+    <hr>
+    <div class="call-out ps-3 py-2"><a href="https://www.lifeextension.com/quest-com">Contact Us <img class="mb-1" src="chev.png" width="22px" alt="" role="presentation"></a></div>
   </div>
+</div>
 </div>
 
 <!--Shop by Benefit -->
@@ -205,7 +233,7 @@
       <li class="sub-category"><a href="#">Mood Support</a></li>
       <li class="sub-category"><a href="#">Nerve Health &amp; Comfort Support</a>
       <li class="sub-category"><a href="#">Oral Care</a></li>
-		<li class="sub-category"><a href="https://www.lifeextension.com/vitamins-supplements/pet-care">Pet Health</a></li>
+      <li class="sub-category"><a href="https://www.lifeextension.com/vitamins-supplements/pet-care">Pet Health</a></li>
       <li class="sub-category"><a href="#">Seasonal Immune &amp; Nasal</a></li>
       <li class="sub-category"><a href="#">Sexual Health</a></li>
       <li class="sub-category"><a href="#">Skin Care</a></li>
@@ -234,7 +262,7 @@
       <li class="sub-category"><a href="#">DHEA</a></li>
       <li class="sub-category"><a href="#">Digestive Enzymes</a></li>
       <li class="sub-category"><a href="#">Fish Oil &amp; Omegas</a></li>
-	  <li class="sub-category"><a href="#">Food &amp; Drinks</a></li>
+      <li class="sub-category"><a href="#">Food &amp; Drinks</a></li>
       <li class="sub-category"><a href="#">Magnesium</a></li>
       <li class="sub-category"><a href="#">Melatonin</a></li>
       <li class="sub-category"><a href="#">NAD</a></li>
@@ -277,14 +305,13 @@
       <li class="sub-category"><a href="#">Bone Restore</a></li>
       <li class="sub-category"><a href="#">Cognitex</a></li>
       <li class="sub-category"><a href="#">GeroProtect</a></li>
-		<li class="sub-category"><a href="https://www.lifeextension.com/vitamins-supplements/gummies">Gummy Science</a></li>
-		  <li class="sub-category"><a href="#">Life Extension Dog</a></li>
+      <li class="sub-category"><a href="https://www.lifeextension.com/vitamins-supplements/gummies">Gummy Science</a></li>
+      <li class="sub-category"><a href="#">Life Extension Dog</a></li>
       <li class="sub-category"><a href="#">Life Extension Mix</a></li>
-		<li class="sub-category"><a href="https://www.lifeextension.com/vitamins-supplements/wellness-code">Wellness Code</a></li>
+      <li class="sub-category"><a href="https://www.lifeextension.com/vitamins-supplements/wellness-code">Wellness Code</a></li>
     </ul>
   </div>
 </div>
-
 
 <!--eBooks-->
 <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvas7" aria-labelledby="offcanvasExample7Label">
@@ -332,16 +359,13 @@
       <li class="sub-category"> <a href="#">Liver Health Testing</a></li>
       <li class="sub-category"> <a href="#">Men's Health Testing</a></li>
       <li class="sub-category"> <a href="#">Neurological Testing</a></li>
-		<li class="sub-category"> <a href="#">Nutrition Health Testing</a></li>
+      <li class="sub-category"> <a href="#">Nutrition Health Testing</a></li>
       <li class="sub-category"> <a href="#">Thyroid Adrenal Testing</a></li>
       <li class="sub-category"> <a href="#">Weight Loss Comprehensive Panel</a></li>
       <li class="sub-category"> <a href="#">Women's Health Testing</a></li>
     </ul>
   </div>
 </div>
-	
-	
-
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script> 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
 </body>
