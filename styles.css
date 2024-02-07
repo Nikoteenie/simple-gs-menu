@@ -15,7 +15,7 @@ body {
 }
 .header-container {
   background-color: white !important;
-  padding-top: 20px;
+  padding: 15px 0 15px;
   margin: 0px auto;
 }
 
