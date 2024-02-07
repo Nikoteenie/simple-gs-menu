@@ -271,7 +271,7 @@ h3, .main-category a {
     background-image: url("mobile-back.png");
   }
   .header-container {
-    padding-top: 5px !important;
+    padding: 5px 20px 0 20px!important;
     background-color: white;
   }
   .logo {
@@ -316,7 +316,8 @@ h3, .main-category a {
     background-image: url("mobile-back.png");
   }
   .header-container {
-    padding-top: 5px !important;
+    padding: 5px 20px 0 20px!important;
+	  background-color: white;
   }
   .logo {
     display: none;
