@@ -5,7 +5,7 @@
   --orange: #fa6100;
 }
 body {
-  background-image: url("background.jpg");
+  background: white;
   background-position: center bottom;
   font-family: 'Roboto', sans-serif;
 }
@@ -251,12 +251,18 @@ h3, .main-category a {
   min-width: 60px;
 }
 @media (max-width: 350px) {
+	.main-background {
+		display:none;
+	}
  .mobile-row{
 	margin-top: 10px;
 }
   .menu-ham {
     display: block;
   }
+	.search-row {
+		padding-left: 20px
+	}
   button .one-rated-desktop {
     display: none;
   }
@@ -276,9 +282,9 @@ h3, .main-category a {
 }
 /*// Small devices (landscape phones, 576px and up)*/
 @media (max-width: 576px) {
-  body {
-    background-image: url("mobile-back.png");
-  }
+	.main-background {
+		display:none;
+	}
   .header-container {
     padding: 5px 20px 0 20px!important;
     background-color: white;
@@ -295,6 +301,9 @@ h3, .main-category a {
   .mobile-logo {
     display: block;
   }
+	.search-row {
+		padding-left: 20px
+	}
   .desktop-icons {
     display: none
   }
@@ -324,9 +333,7 @@ h3, .main-category a {
 }
 /*// Medium devices (tablets, 768px and up)*/
 @media (max-width: 768px) {
-  body {
-    background-image: url("mobile-back.png");
-  }
+
   .header-container {
     padding: 5px 20px 0 20px!important;
 	  background-color: white;
